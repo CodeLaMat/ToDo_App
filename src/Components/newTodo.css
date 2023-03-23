@@ -1,0 +1,31 @@
+.form-container {
+  display: flex;
+}
+
+.form-container .form-control {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container input {
+  width: 280px;
+  height: 57px;
+  border: none;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+  padding-left: 10px;
+  font-size: 17px;
+  border: 1px solid gray;
+}
+
+.form-container button {
+  width: 90px;
+  height: 60px;
+  border: none;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+  padding-left: 10px;
+  font-size: 17px;
+  border: 1px solid gray;
+  cursor: pointer;
+}
